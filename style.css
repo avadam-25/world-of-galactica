@@ -1,23 +1,22 @@
 body {
-  max-width: 1200px; /* максимальная ширина страницы */
-  margin: 0 auto;    /* выравнивание по центру */
-  padding: 0 20px;   /* отступы по бокам */
-}
-img {
-  max-width: 100%;
-  height: auto;
-  display: block;
+  background: #000; /* чёрный фон для контраста */
+  margin: 0;
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center; /* центрируем весь контент */
 }
 
 .cards-container {
   display: flex;
   flex-direction: column;
   align-items: center; /* центрируем карточки */
-  padding: 20px 0;
+  padding: 20px;
+  max-width: 1200px; /* ограничение всей страницы */
+  width: 100%;
 }
 
 .card {
-  max-width: 900px;
+  max-width: 900px; /* ограничение ширины карточек */
   width: 100%;
   margin-bottom: 20px;
   background: white;
