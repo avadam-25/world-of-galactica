@@ -1,0 +1,27 @@
+body {
+  background: #000; /* чёрный фон для контраста */
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.cards-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* центрируем карточки */
+  padding: 20px 0;
+}
+
+.card {
+  width: 80%; /* карточка занимает 80% ширины экрана */
+  margin-bottom: 20px; /* отступ между карточками */
+  background: white; /* белый фон для аккуратного вида */
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
