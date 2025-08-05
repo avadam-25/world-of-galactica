@@ -1,7 +1,12 @@
 body {
-  background: #000; /* чёрный фон для контраста */
-  margin: 0;
-  font-family: Arial, sans-serif;
+  max-width: 1200px; /* максимальная ширина страницы */
+  margin: 0 auto;    /* выравнивание по центру */
+  padding: 0 20px;   /* отступы по бокам */
+}
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
 }
 
 .cards-container {
